@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1vw;
+    background-image: linear-gradient(to top right, rgb(86, 86, 253),rgb(255, 59, 111),yellow);
+}
+.card{
+    margin: 3vw;
+    padding: 2vw;
+    height: 30vw;
+    width: 25vw;
+    border-radius: 16px;
+    background-color: rgba(128, 128, 128, 0.300);
+    text-transform: capitalize;
+    text-align: center;
+    
+}
+.card:hover{
+    transform: scale(1.2);
+    transition: all;
+    transition-duration: 300ms;
+}
+.card img{
+    margin: 1vw, 1vw;
+    height: 20vw;
+    width: 20vw;
+    border-radius: 10px;
+}
+.card a{
+    text-decoration: none;
+    color: rgb(87, 31, 147);
+}
+.org{
+    box-shadow: 0px 0px 30px 2px green;
+}
